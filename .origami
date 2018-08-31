@@ -18,8 +18,7 @@
     "plugins": {
         "markdown-docs": {
             "logo": "/logo.svg",
-            "title": "My site",
-            "colors": {}
+            "siteTitle": "Origami Docs"
         }
     },
     "apps": {

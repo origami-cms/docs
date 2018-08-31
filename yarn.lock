@@ -3103,6 +3103,19 @@ origami-core-lib@^0.3.13-alpha.1:
     jsonwebtoken "^8.3.0"
     marked "^0.3.6"
 
+origami-core-lib@^0.3.13-alpha.2:
+  version "0.3.13-alpha.2"
+  resolved "https://registry.yarnpkg.com/origami-core-lib/-/origami-core-lib-0.3.13-alpha.2.tgz#fb8ce993ad8deee16506b2d9637681fb218b13e4"
+  dependencies:
+    "@types/express" "^4.11.1"
+    bcrypt "^2.0.1"
+    deepmerge "^2.1.1"
+    dot-object "^1.7.0"
+    find-root "^1.1.0"
+    import-from "^2.1.0"
+    jsonwebtoken "^8.3.0"
+    marked "^0.3.6"
+
 origami-core-server-statuses@^0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/origami-core-server-statuses/-/origami-core-server-statuses-0.0.8.tgz#683e8ca0d30886df8986543ca439f008f4709885"
@@ -3211,16 +3224,16 @@ origami-plugin-core-api@^0.1.4:
     request "^2.87.0"
     request-promise-native "^1.0.5"
 
-origami-plugin-markdown-docs@^0.0.1-alpha.1:
-  version "0.0.1-alpha.1"
-  resolved "https://registry.yarnpkg.com/origami-plugin-markdown-docs/-/origami-plugin-markdown-docs-0.0.1-alpha.1.tgz#c4a2217628171d060eb91525c6cbf7fc9528f9f3"
+origami-plugin-markdown-docs@^0.0.2-alpha.0:
+  version "0.0.2-alpha.0"
+  resolved "https://registry.yarnpkg.com/origami-plugin-markdown-docs/-/origami-plugin-markdown-docs-0.0.2-alpha.0.tgz#b78c1195f9fd3152fc6c17ef7a4e9bd3851f3090"
   dependencies:
     "@types/marked" "^0.4.1"
     directory-tree "^2.1.0"
     lodash "^4.17.10"
     markdown-toc "^1.2.0"
     marked "^0.5.0"
-    origami-core-lib "^0.3.13-alpha.1"
+    origami-core-lib "^0.3.13-alpha.2"
     origami-core-server "^0.5.3-alpha.0"
 
 origami-plugin-media@^1.0.1:
