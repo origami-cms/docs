@@ -3513,9 +3513,9 @@ origami-plugin-core-api@^0.1.4:
     request "^2.87.0"
     request-promise-native "^1.0.5"
 
-origami-plugin-markdown-docs@^0.0.2-alpha.0:
-  version "0.0.2-alpha.0"
-  resolved "https://registry.yarnpkg.com/origami-plugin-markdown-docs/-/origami-plugin-markdown-docs-0.0.2-alpha.0.tgz#b78c1195f9fd3152fc6c17ef7a4e9bd3851f3090"
+origami-plugin-markdown-docs@^0.0.2-alpha.1:
+  version "0.0.2-alpha.1"
+  resolved "https://registry.yarnpkg.com/origami-plugin-markdown-docs/-/origami-plugin-markdown-docs-0.0.2-alpha.1.tgz#27bb691c06d6e46cc0588eb0587995e1af144fd0"
   dependencies:
     "@types/marked" "^0.4.1"
     directory-tree "^2.1.0"
