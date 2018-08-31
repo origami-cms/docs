@@ -1,0 +1,28 @@
+{
+    "app": {
+        "name": "Origami WWW"
+    },
+    "store": {
+        "type": "mongodb",
+        "host": "localhost",
+        "port": "27017",
+        "database": "origami-www",
+        "username": "origami",
+        "password": "origami"
+    },
+    "server": {
+        "port": 9999,
+        "secret": "0401047e52def662920df24c084cfbf2",
+        "static": "./public"
+    },
+    "plugins": {
+        "markdown-docs": {
+            "logo": "/logo.svg",
+            "title": "My site",
+            "colors": {}
+        }
+    },
+    "apps": {
+        "theme": "./themes/origami-www"
+    }
+}

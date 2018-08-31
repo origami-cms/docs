@@ -1,0 +1,14 @@
+{
+    "name": "origami-www",
+    "dependencies": {
+        "origami-app-theme": "^0.0.1-alpha.0",
+        "origami-cli": "^1.1.2",
+        "origami-cms": "^0.2.15-alpha.6",
+        "origami-plugin-markdown-docs": "^0.0.1-alpha.0",
+        "origami-store-mongodb": "^0.1.2",
+        "pug": "^2.0.3"
+    },
+    "scripts": {
+        "serve": "origami"
+    }
+}
