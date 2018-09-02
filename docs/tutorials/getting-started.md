@@ -34,5 +34,11 @@ As is tradition, let's get a simple Hello, World up and running by only typing t
 
 ```bash
 origami example hello-world
-origami hello-world/
+origami hello-world/ -o
 ```
+
+![Hello, World](https://raw.githubusercontent.com/origami-cms/example-hello-world/master/banner.jpg)
+
+You should automatically see something like this in your browser now! So what's going on? Let's break it down.
+The first command copies down the example `hello-world` app into a new folder.
+We then run `origami` on that folder, where the CLI reads the `.origami` file, and opens it in the browser with the `-o` flag. Pretty neat huh?
