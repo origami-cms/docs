@@ -7,7 +7,7 @@
     "dependencies": {
         "nodemon": "^1.18.4",
         "origami-cli": "^1.2.0",
-        "origami-cms": "^0.2.15-alpha.11",
+        "origami-cms": "^0.2.15",
         "origami-plugin-markdown-docs": "^0.0.2-alpha.4",
         "pug": "^2.0.3"
     },
