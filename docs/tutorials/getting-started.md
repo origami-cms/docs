@@ -42,3 +42,5 @@ origami hello-world/ -o
 You should automatically see something like this in your browser now! So what's going on? Let's break it down.
 The first command copies down the example `hello-world` app into a new folder.
 We then run `origami` on that folder, where the CLI reads the `.origami` file, and opens it in the browser with the `-o` flag. Pretty neat huh?
+
+You can view the code for this example at the [Github repository](https://github.com/origami-cms/example-hello-world)
