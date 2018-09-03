@@ -2886,9 +2886,9 @@ origami-plugin-default-pages@^0.0.2-alpha.2:
   dependencies:
     origami-core-lib "^0.3.13-alpha.7"
 
-origami-plugin-markdown-docs@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/origami-plugin-markdown-docs/-/origami-plugin-markdown-docs-0.0.2.tgz#f22e0f30126454bf610d77f52182e9b0edc94ab7"
+origami-plugin-markdown-docs@^0.0.3-alpha.0:
+  version "0.0.3-alpha.0"
+  resolved "https://registry.yarnpkg.com/origami-plugin-markdown-docs/-/origami-plugin-markdown-docs-0.0.3-alpha.0.tgz#c4e1b27dd467bdc63f82c896eb9c9d229692190f"
   dependencies:
     "@types/marked" "^0.4.1"
     directory-tree "^2.1.0"
