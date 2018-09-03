@@ -5,6 +5,7 @@
         "url": "https://github.com/origami-cms/docs.git"
     },
     "dependencies": {
+        "newrelic": "^4.8.1",
         "nodemon": "^1.18.4",
         "origami-cli": "^1.2.0",
         "origami-cms": "^0.2.15",
@@ -13,6 +14,6 @@
     },
     "scripts": {
         "start": "origami",
-        "serve": "nodemon --exec \"yarn start\""
+        "serve": "nodemon --exec \"node run\""
     }
 }
