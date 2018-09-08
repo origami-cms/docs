@@ -8,8 +8,8 @@
         "newrelic": "^4.8.1",
         "nodemon": "^1.18.4",
         "origami-cli": "^1.2.0",
-        "origami-cms": "^0.2.15",
-        "origami-plugin-markdown-docs": "^0.0.3-alpha.0",
+        "origami-cms": "^0.2.16-alpha.3",
+        "origami-plugin-markdown-docs": "^0.0.3-alpha.1",
         "pug": "^2.0.3"
     },
     "scripts": {
