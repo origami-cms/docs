@@ -12,7 +12,7 @@
 > To begin, you'll need:
 > - Basic understanding of programming
 > - Basic understanding of using Terminal or CMD (Windows)
-> - A computer with Node.js installed
+> - A computer with [Node.js][1] installed
 
 ---
 
@@ -50,3 +50,6 @@ The first command copies down the example `hello-world` app into a new folder.
 We then run `origami` on that folder, where the CLI reads the `.origami` file, and opens it in the browser with the `-o` flag. Pretty neat huh?
 
 You can view the code for this example at the [Github repository](https://github.com/origami-cms/example-hello-world)
+
+
+[1]: https://nodejs.org/en/download/

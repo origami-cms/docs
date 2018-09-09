@@ -3,7 +3,7 @@
         "name": "Origami WWW"
     },
     "server": {
-        "port": 9999,
+        "port": 9998,
         "secret": "0401047e52def662920df24c084cfbf2",
         "static": "./public"
     },

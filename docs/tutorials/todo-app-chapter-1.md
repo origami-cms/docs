@@ -11,7 +11,9 @@
 Setting up the API
 :::
 
-In this tutorial series we'll be running through how to build a small, full-stack, Todo App (as is customary for most frameworks). Origami comes with it's own UI library called [Zen](https://github.com/origami-cms/zen), a collection of highly reusable and theme-able [Web Components](https://www.webcomponents.org/). We like Web Components at Origami because they're agnostic to frameworks but you could use any front end library (React, Vue, Angular, etc). We'll also be using [Origami's Resource feature][1] to quickly scale a REST API for our app.
+![Banner](/tutorials/todo-app/final.png)
+
+In this 2 part tutorial series we'll be running through how to build a small, full-stack, Todo App (as is customary for most frameworks). Origami comes with it's own UI library called [Zen](https://github.com/origami-cms/zen), a collection of highly reusable and theme-able [Web Components](https://www.webcomponents.org/). We like Web Components at Origami because they're agnostic to frameworks but you could use any front end library (React, Vue, Angular, etc). We'll also be using [Origami's Resource feature][1] to quickly scale a REST API for our app.
 
 This example app can be installed with the CLI using:
 ```bash
@@ -70,7 +72,7 @@ To use a store in Origami, first install the adapter:
 yarn add origami-store-lowdb
 ```
 
-From here, add the connection details in your `.origami` file and away you go! (For more information on how to setup other databases, you can read the API reference for [Stores][2] and [the Origami file][3]).
+From here, add the connection details in your `.origami` file and away you go! (For more information on how to setup other databases, you can read the API reference for [Stores][2] and [the Origami file][3]). Origami also allows you to pass in environment variables so you don't store secure information (such as passwords, connection strings etc) in the code. For more information, check out the [the Origami file][3] API reference.
 
 ```js {data-filename=.origami}
 {
@@ -127,7 +129,7 @@ Now if you load [http://localhost:9999/api/v1/items](http://localhost:9999/api/v
 ```
 
 ### So…what is this doing?
-The `.origami` file is setting up a special resource with the model `TodoItem.js` that you defined, and **automatically giving you 5 API REST calls** ([read more about Resources here][1]) you can make to access your Todo Items. By default, authentication is required for each of these API calls, but we turned this off for simplicities sake in this tutorial.
+The `.origami` file is setting up a special resource with the model `TodoItem.js` that you defined, and **automatically giving you 5 API REST calls** ([read more about Resources here][1]) you can make to access your Todo Items. By default, authentication is required for each of these API calls, but we turned this off for simplicity's sake in this tutorial.
 
 We now have a working, un-authenticated API with:
 
