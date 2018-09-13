@@ -1,6 +1,7 @@
 ---
 {
-    "prev": "tutorials/todo-app-chapter-1"
+    "prev": "tutorials/todo-app-chapter-1",
+    "metaDescription": "In this 2 part tutorial series we'll be running through how to build a small, full-stack, Todo App."
 }
 ---
 
