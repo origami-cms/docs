@@ -5,16 +5,19 @@
         "url": "https://github.com/origami-cms/docs.git"
     },
     "dependencies": {
+        "@origami/core-lib": "^0.0.3-alpha.6",
+        "@origami/core-server": "^0.0.3-alpha.6",
+        "@origami/origami": "^0.0.3-alpha.6",
         "newrelic": "^4.8.1",
         "nodemon": "^1.18.4",
-        "origami-cli": "^1.2.0",
-        "origami-cms": "^0.2.16-alpha.12",
-        "origami-core-lib": "^0.3.14",
-        "origami-plugin-markdown-docs": "^0.0.3",
+        "origami-plugin-markdown-docs": "^0.0.4",
         "pug": "^2.0.3"
     },
     "scripts": {
-        "start": "origami",
+        "start": "node run",
         "serve": "nodemon --exec \"node run\""
+    },
+    "devDependencies": {
+        "typedoc": "^0.13.0"
     }
 }

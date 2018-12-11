@@ -2,13 +2,14 @@
     "app": {
         "name": "Origami WWW"
     },
-    "server": {
-        "port": 9998,
-        "secret": "0401047e52def662920df24c084cfbf2",
-        "static": "./public"
-    },
     "plugins": {
         "markdown-docs": {
+            "include": [
+                {"type": "tutorials", "path": "./docs/tutorials"},
+                {"type": "apiReference", "path": "node_modules/@origami/origami/docs.json"},
+                {"type": "apiReference", "path": "node_modules/@origami/core-server/docs.json"},
+                {"type": "apiReference", "path": "node_modules/@origami/core-lib/docs.json"}
+            ],
             "logo": "/logo.svg",
             "siteTitle": "Origami Docs"
         }

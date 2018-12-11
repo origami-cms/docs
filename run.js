@@ -1,3 +1,3 @@
 require('newrelic');
-const {Origami} = require('origami-cms');
+const {Origami} = require('@origami/origami');
 new Origami();
