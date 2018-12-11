@@ -9,7 +9,7 @@
         "@origami/core-server": "^0.0.3-alpha.6",
         "@origami/origami": "^0.0.3-alpha.6",
         "nodemon": "^1.18.4",
-        "origami-plugin-markdown-docs": "^0.0.4",
+        "origami-plugin-markdown-docs": "^0.0.5-alpha.0",
         "pug": "^2.0.3"
     },
     "scripts": {

@@ -3,7 +3,7 @@
         "name": "Origami WWW"
     },
     "plugins": {
-        "./node_modules/origami-plugin-markdown-docs/build/index.js": {
+        "markdown-docs": {
             "include": [
                 {"type": "tutorials", "path": "./docs/tutorials"},
                 {"type": "apiReference", "path": "node_modules/@origami/origami/docs.json"},

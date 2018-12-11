@@ -2628,9 +2628,9 @@ origami-plugin-favicon@^0.0.1:
     serve-favicon "^2.5.0"
     to-ico "^1.1.5"
 
-origami-plugin-markdown-docs@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/origami-plugin-markdown-docs/-/origami-plugin-markdown-docs-0.0.4.tgz#9ff97eba0b2528d044c218ca9ab225cd68b196cd"
+origami-plugin-markdown-docs@^0.0.5-alpha.0:
+  version "0.0.5-alpha.0"
+  resolved "https://registry.yarnpkg.com/origami-plugin-markdown-docs/-/origami-plugin-markdown-docs-0.0.5-alpha.0.tgz#7ef44e36d2eb83fa626aab71f8e2c682ff72fa5f"
   dependencies:
     "@origami/core" "^0.0.3-alpha.5"
     "@origami/tslint-config" "^0.0.3-alpha.3"
